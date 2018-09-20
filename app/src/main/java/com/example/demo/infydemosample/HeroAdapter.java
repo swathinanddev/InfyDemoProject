@@ -20,7 +20,6 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.HeroViewHolder
     private List<HeroModel> mHeroList;
     private Context mContext;
 
-
     public HeroAdapter(List<HeroModel> heroList, Context context) {
         this.mHeroList = heroList;
         this.mContext = context;
