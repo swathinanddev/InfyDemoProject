@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InfyDemoSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="realname">RealName</string>
+    <string name="team">Team</string>
+    <string name="avengers">Avengers</string>
+    <string name="name">name</string>
+    <string name="marvel_hero">Marvel Heroes</string>
+</resources>

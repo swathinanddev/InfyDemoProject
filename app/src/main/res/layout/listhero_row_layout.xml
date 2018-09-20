@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/hero_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_fifteen"
+        android:scaleType="center"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_fifteen"
+        android:layout_marginStart="@dimen/dimen_fifteen"
+        android:layout_marginTop="@dimen/dimen_fifteen"
+        android:text="@string/name"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hero_img" />
+
+    <TextView
+        android:id="@+id/name_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_thirty"
+        android:layout_marginTop="@dimen/dimen_fifteen"
+        android:text="@string/name"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/name_tv"
+        app:layout_constraintTop_toBottomOf="@+id/hero_img" />
+
+    <TextView
+        android:id="@+id/realname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_fifteen"
+        android:layout_marginStart="@dimen/dimen_fifteen"
+        android:layout_marginTop="@dimen/dimen_fifteen"
+        android:text="@string/realname"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_tv" />
+
+    <TextView
+        android:id="@+id/realname_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_thirty"
+        android:layout_marginTop="@dimen/dimen_fifteen"
+        android:text="@string/realname"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/realname_tv"
+        app:layout_constraintTop_toBottomOf="@+id/name_value" />
+
+    <TextView
+        android:id="@+id/team_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_fifteen"
+        android:layout_marginTop="@dimen/dimen_fifteen"
+        android:text="@string/team"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/realname_tv" />
+
+    <TextView
+        android:id="@+id/team_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_thirty"
+        android:layout_marginTop="@dimen/dimen_fifteen"
+        android:paddingBottom="@dimen/dimen_fifteen"
+        android:text="@string/avengers"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/team_tv"
+        app:layout_constraintTop_toBottomOf="@+id/realname_value" />
+
+
+</android.support.constraint.ConstraintLayout>
